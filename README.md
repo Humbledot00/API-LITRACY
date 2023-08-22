@@ -73,18 +73,13 @@ LameJoke Component: Lame Joke Generator
 Healthcare Centers API
 
 ### Base URL:
-https://script.google.com/macros/s/AKfycbxFwBrk6_EllJ_ig_GTFxHaKe_cIcEryfPXuw8rJ648lHggZb70KeVaUzgNMJpXBVz5YQ/exec
-
+`https://script.google.com/macros/s/AKfycbxFwBrk6_EllJ_ig_GTFxHaKe_cIcEryfPXuw8rJ648lHggZb70KeVaUzgNMJpXBVz5YQ/exec`
 ### Endpoints:Get Healthcare Centers
-
-**Endpoint:** /healthcare-centers
-
+**Endpoint:** `/healthcare-centers`
 **Method:** GET
-
 **Description:** Retrieve a list of healthcare centers along with their corresponding state, city, district, hospital name, address, and contact details
 
 Response:
-
 Status: 200 OK
 Data: An array of healthcare center objects, each containing the following fields:
 State (string): The state where the healthcare center is located.
@@ -96,20 +91,14 @@ Contact (string): Contact details for the healthcare center.
 
 
 Joke API
-
 ### Base URL: 
-https://official-joke-api.appspot.com
-
+`https://official-joke-api.appspot.com`
 ### Endpoints: Get Random Joke
-
-**Endpoint:** /random_joke
-
+**Endpoint:** `/random_joke`
 **Method:** GET
-
 **Description:** Retrieve a random joke with a type, setup, punchline, and ID.
 
 Response:
-
 Status: 200 OK
 Data: An object containing the following fields:
 type (string): The type of the joke.
@@ -119,23 +108,17 @@ id (number): The unique ID of the joke.
 
 
 NewsAPI
-
 ### Base URL:
-https://newsapi.org/v2
-
+`https://newsapi.org/v2`
 ### Endpoints:Get News Articles
-
-**Endpoint:** /everything
-
+**Endpoint:**` /everything`
 **Method:** GET
-
 **Description:** Retrieve news articles related to the specified topic.
-
 Parameters:
 q (string, required): The search query for news articles.
 apiKey (string, required): Your API key for accessing the data.
-Response:
 
+Response:
 Status: 200 OK
 Data: An object containing the following fields:
 status (string): The status of the response.
@@ -144,15 +127,10 @@ articles (array): An array of news article objects.
 
 
 Healthcare Centers API
-
 ### Base URL: `https://script.google.com/macros/s/AKfycbxFwBrk6_EllJ_ig_GTFxHaKe_cIcEryfPXuw8rJ648lHggZb70KeVaUzgNMJpXBVz5YQ/exec`
-
 ### Endpoints: Get Healthcare Centers
-
 **Endpoint:** `/healthcare-centers`
-
 **Method:** GET
-
 **Description:** Retrieve a list of healthcare centers along with their corresponding state, city, district, hospital name, address, and contact details.
 
 
