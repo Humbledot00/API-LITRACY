@@ -44,19 +44,23 @@ To install the required dependencies, run the following command:
 "  npm install react react-dom xml-parser bootstrap   "
 
 
+
 Features
 Navbar Component: Navigation Bar
 	Provides a navigation bar with links to different sections of the application.
 	Includes links for "Home," "Documentation," "Source Code," and "API Collection."
 	Offers a search feature with an input field and a "Search" button.
+
 Card Component: Health Information
 	Fetches and displays data about essential life-saving medicines, hospital names, and blood bank details from different APIs.
 	Allows users to explore these key features through buttons that trigger data display.
 	Utilizes conditional rendering to show the relevant data table based on user selections.
+
 HealthNews Component: Latest Health Updates
 	Fetches and displays the latest health-related news articles from an external API.
 	Provides a button to trigger the retrieval of news updates.
 	Renders news articles in responsive cards, each featuring the article's title, image, source name, and published date.
+
 LameJoke Component: Lame Joke Generator
 	Fetches and displays random lame jokes from an external joke API.
 	Offers a button to retrieve a new joke and enjoy a moment of humor.
