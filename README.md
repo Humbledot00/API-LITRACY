@@ -68,7 +68,8 @@ API Documentation
 
 Healthcare Centers API
 
-Base URL:https://script.google.com/macros/s/AKfycbxFwBrk6_EllJ_ig_GTFxHaKe_cIcEryfPXuw8rJ648lHggZb70KeVaUzgNMJpXBVz5YQ/exec
+### Base URL:
+https://script.google.com/macros/s/AKfycbxFwBrk6_EllJ_ig_GTFxHaKe_cIcEryfPXuw8rJ648lHggZb70KeVaUzgNMJpXBVz5YQ/exec
 Endpoints:Get Healthcare Centers
 Endpoint: /healthcare-centers
 Method: GET
@@ -86,7 +87,8 @@ Contact (string): Contact details for the healthcare center.
 
 
 Joke API
-Base URL :https://official-joke-api.appspot.com
+### Base URL: 
+https://official-joke-api.appspot.com
 Endpoints: Get Random Joke
 Endpoint: /random_joke
 Method: GET
@@ -102,7 +104,8 @@ id (number): The unique ID of the joke.
 
 
 NewsAPI
-Base URL:https://newsapi.org/v2
+### Base URL:
+https://newsapi.org/v2
 Endpoints:Get News Articles
 Endpoint: /everything
 Method: GET
