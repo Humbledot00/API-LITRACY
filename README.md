@@ -16,7 +16,7 @@ LameJoke Component: Lame Joke Generator
 Navbar Component: Navigation Bar
 
 
-Introduction
+###Introduction
 
 MedDot is a React application that combines health-related data fetching and entertainment features. It utilizes various APIs to provide users with essential health information, latest news updates, and random lame jokes for amusement.
 
@@ -45,7 +45,7 @@ To install the required dependencies, run the following command:
 
 
 
-Features
+###Features
 Navbar Component: Navigation Bar
 	Provides a navigation bar with links to different sections of the application.
 	Includes links for "Home," "Documentation," "Source Code," and "API Collection."
@@ -68,16 +68,21 @@ LameJoke Component: Lame Joke Generator
 
 
 
-API Documentation
+###API Documentation
 
 Healthcare Centers API
 
 ### Base URL:
 https://script.google.com/macros/s/AKfycbxFwBrk6_EllJ_ig_GTFxHaKe_cIcEryfPXuw8rJ648lHggZb70KeVaUzgNMJpXBVz5YQ/exec
-Endpoints:Get Healthcare Centers
-Endpoint: /healthcare-centers
-Method: GET
-Description: Retrieve a list of healthcare centers along with their corresponding state, city, district, hospital name, address, and contact details
+
+### Endpoints:Get Healthcare Centers
+
+**Endpoint:** /healthcare-centers
+
+**Method:** GET
+
+**Description:** Retrieve a list of healthcare centers along with their corresponding state, city, district, hospital name, address, and contact details
+
 Response:
 
 Status: 200 OK
@@ -91,12 +96,18 @@ Contact (string): Contact details for the healthcare center.
 
 
 Joke API
+
 ### Base URL: 
 https://official-joke-api.appspot.com
-Endpoints: Get Random Joke
-Endpoint: /random_joke
-Method: GET
-Description: Retrieve a random joke with a type, setup, punchline, and ID.
+
+### Endpoints: Get Random Joke
+
+**Endpoint:** /random_joke
+
+**Method:** GET
+
+**Description:** Retrieve a random joke with a type, setup, punchline, and ID.
+
 Response:
 
 Status: 200 OK
@@ -108,12 +119,18 @@ id (number): The unique ID of the joke.
 
 
 NewsAPI
+
 ### Base URL:
 https://newsapi.org/v2
-Endpoints:Get News Articles
-Endpoint: /everything
-Method: GET
-Description: Retrieve news articles related to the specified topic.
+
+### Endpoints:Get News Articles
+
+**Endpoint:** /everything
+
+**Method:** GET
+
+**Description:** Retrieve news articles related to the specified topic.
+
 Parameters:
 q (string, required): The search query for news articles.
 apiKey (string, required): Your API key for accessing the data.
